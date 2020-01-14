@@ -15,8 +15,7 @@ body {
 
   .intro {
     @media @phone {
-      margin-left: 12%;
-      margin-right: 12%;
+      .margins();
     }
     h2 {
       padding: 15px;
@@ -62,6 +61,9 @@ body {
   }
 
   .visit-planets {
+    @media @phone {
+      .margins();
+    }
     padding: 15px;
 
     h3 {
